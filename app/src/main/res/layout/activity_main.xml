@@ -15,4 +15,24 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/IP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="IP"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <EditText
+        android:id="@+id/Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Message"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="495dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
